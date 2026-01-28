@@ -1,0 +1,23 @@
+{
+  "name": "test-env-backend",
+  "version": "1.0.0",
+  "description": "Backend service with environment variables",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "migrate": "node scripts/migrate.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "redis": "^4.6.10",
+    "stripe": "^14.5.0",
+    "aws-sdk": "^2.1491.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
